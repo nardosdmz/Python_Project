@@ -18,7 +18,7 @@ None
 
 ## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
 
-Student name: Komaldeep Bains , TA: Yihan Zhang 
+Student name: Komaldeep Bains , Email: Tun59318@temple.edu , TA: Yihan Zhang 
 
 ## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
 
