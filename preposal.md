@@ -6,8 +6,8 @@ A to-do list web app.
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
-So far, none.
+Student name: Komaldeep Bains 
 
 ## Do you have any questions of your own?
 
-Is my idea for the final project ok?
+none
