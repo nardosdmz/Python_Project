@@ -17,7 +17,7 @@ body {
 	background-size: cover;
 	background-position: center;
 
-	/* overflow: hidden; */
+
 }
 
 .todo-app {
@@ -121,7 +121,7 @@ ul li span {
 ul li span:hover {
 	background: #edeef0;
 }
-/* put the button on the right */
+
 .clear-list-container {
 	display: flex;
 	margin: 50px auto 0px;
