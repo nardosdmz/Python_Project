@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <div class="container">
         <div class="todo-app">
@@ -19,8 +23,23 @@
                 <li>Task 2</li>
                 <li>Task 3</li> -->
             </ul>
+            <div class="clear-list-container">
+                <button class="clear-list" onclick="clearList()">Clear All</button>
+            </div>
+        </div>
+        <div class="background-theme">
+            <h4 style="color: white; margin-left: 20px;">Change Background Image</h4>
+            <button onclick="changeBackground('./img/to-do-book.jpg')">Img 1</button>
+            <button onclick="changeBackground('./img/Snowy-Berks-Gate_Temple.jpg')">Img 2</button><br />
+            <button onclick="changeBackground('./img/Hooter-Spirit-weba.jpg')">Img 3</button>
+            <button onclick="changeBackground('./img/Fall-Belltower.jpg')">Img 4</button><br />
+            <button onclick="changeBackground('./img/temple-Bell-Tower.jpg')">Img 5</button>
+            <button onclick="changeBackground('./img/Temple_University_NightOwl.jpg')">Img 6</button><br />
+            <button onclick="changeBackground('./img/Fall-Belltower.jpg')">Img 7</button>
+            <button onclick="changeBackground('./img/temple-Bell-Tower.jpg')">Img 8</button>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
