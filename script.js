@@ -8,11 +8,11 @@ function addTask() {
 		let li = document.createElement("li");
 		li.innerHTML = inputBox.value;
 		listContainer.appendChild(li);
-		let span = document.createElement("span");
+		let span = document.createElement("span"); //same block
 		span.innerHTML = "\u00d7";
 		li.appendChild(span);
 	}
-	inputBox.value = "";
+	inputBox.value = "";// user value to empty string
 	saveData();
 }
 
@@ -36,6 +36,8 @@ function showTask() {
 	listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+
 function clearList() {
 	listContainer.innerHTML = "";
 	localStorage.removeItem("data");

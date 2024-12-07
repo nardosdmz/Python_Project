@@ -16,8 +16,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
-
 }
 
 .todo-app {
@@ -132,7 +130,11 @@ ul li span:hover {
 }
 @media (max-width: 537px) {
 	.todo-app {
+		width: 80%;
 		margin: 100px 40px 30px 40px;
 		max-width: 400px;
+	}
+	button{
+		padding: 12px 20px;
 	}
 }
